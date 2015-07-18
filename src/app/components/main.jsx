@@ -27,7 +27,6 @@ class Main extends React.Component {
    </ul>
    </div>
    </nav>
-   */
 
   componentDidMount() {
     $(this.refs.menuButton.getDOMNode()).sideNav();
@@ -37,6 +36,7 @@ class Main extends React.Component {
     this.context.router.transitionTo(route);
     $(this.refs.menuButton.getDOMNode()).sideNav("hide");
   }
+   */
 }
 
 module.exports = Main;
