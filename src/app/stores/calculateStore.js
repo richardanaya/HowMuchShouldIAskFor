@@ -17,7 +17,7 @@ class DataStore extends Store {
                 workableDays: 365,
                 hoursPerDay: 8,
                 tax: 25,
-                selfEmploymentTax: 7.3,
+                selfEmploymentTax: 7.65,
                 vacationDays: 30
             }
         ));
