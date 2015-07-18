@@ -71,8 +71,7 @@ class Component extends React.Component {
                     </div>
                     <div className="row">
                         <div className="input-field col s4">
-                            <input placeholder="$" type="text" onChange={this.onW2HourlyChange.bind(this)} value={this.state.data.get("w2Hourly")||""}/>
-                            <label className="active">W2 Hourly</label>
+                            
                         </div>
                         <div className="input-field col s4">
                             <input placeholder="$" type="text" onChange={this.onTakehomeMonthlyChange.bind(this)} value={this.state.data.get("takehomeMonthly")||""}/>
