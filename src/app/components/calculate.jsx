@@ -46,8 +46,8 @@ class Component extends React.Component {
                         <h4>How to use?</h4>
                         <p>This is a form for discovering a rough estimate of how much one should charge as a contractor.</p>
                         <ol>
-                            <li>Enter in your monthly takehome</li>
-                            <li>Adjust tax rate until your yearly W2 salary looks right</li>
+                            <li>Enter in annual w2 salary</li>
+                            <li>Adjust tax rate until your monthly take home looks about right</li>
                             <li>Play with parameters until your conditions are approximated</li>
                         </ol>
                     </div>
@@ -71,7 +71,7 @@ class Component extends React.Component {
                     </div>
                     <div className="row">
                         <div className="input-field col s4">
-                            
+
                         </div>
                         <div className="input-field col s4">
                             <input placeholder="$" type="text" onChange={this.onTakehomeMonthlyChange.bind(this)} value={this.state.data.get("takehomeMonthly")||""}/>
