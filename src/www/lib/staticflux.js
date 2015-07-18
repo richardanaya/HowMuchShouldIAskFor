@@ -39,12 +39,12 @@
             _classCallCheck(this, Store);
 
             this.subject = new Rx.ReplaySubject(1);
-            this.updateState(state);
+            this.setState(state);
         }
 
         _createClass(Store, [{
-            key: 'updateState',
-            value: function updateState(state) {
+            key: 'setState',
+            value: function setState(state) {
                 this.state = state;
                 this.subject.onNext(state);
             }

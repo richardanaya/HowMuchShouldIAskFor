@@ -1,6 +1,6 @@
 class Component extends React.Component {
     render() {
-        return (<div>
+        return (<div className="page">
             Meet half way.
         </div>)
     }
