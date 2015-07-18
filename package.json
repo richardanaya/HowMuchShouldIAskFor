@@ -1,0 +1,32 @@
+{
+  "name": "howmuchshouldiaskfor",
+  "version": "0.0.1",
+  "description": "A minimalistic material design project.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardanaya/HowMuchShouldIAskFor"
+  },
+  "scripts": {
+    "start": "src/server/server.js"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browser-sync": "^1.8.1",
+    "browserify": "^7.0.3",
+    "dotenv": "^1.2.0",
+    "gulp": "^3.8.10",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-notify": "^2.1.0",
+    "gulp-util": "^3.0.1",
+    "pretty-hrtime": "^0.2.2",
+    "require-dir": "^0.1.0",
+    "underscore": "^1.7.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "2.5.x",
+    "request": "latest"
+  }
+}
