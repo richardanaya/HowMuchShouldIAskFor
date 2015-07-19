@@ -43,8 +43,7 @@ class Component extends React.Component {
             <div className="page">
                 <form className="col s12">
                     <div className="row">
-                        <h4>How to use?</h4>
-                        <p>This is a form for discovering a rough estimate of how much one should charge as a contractor.</p>
+                        <h4>What is my contractor equivalent to my current salary?</h4>
                         <ol>
                             <li>Enter in annual w2 salary</li>
                             <li>Adjust tax rate until your monthly take home looks about right</li>
